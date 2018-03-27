@@ -11,7 +11,6 @@ public class No796_RotateString {
 			return false;
 		if(A.equals(B))
 			return true;
-		StringBuffer sb = null;
 		for(char c:A.toCharArray()) {
 			A = A.substring(1)+c;
 			if(A.equals(B))
