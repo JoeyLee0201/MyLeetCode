@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.bean.TreeNode;
+
 public class No543_DiameterOfBinaryTree {
 	/** 543
 	 * Definition for a binary tree node.
@@ -31,10 +33,5 @@ public class No543_DiameterOfBinaryTree {
         return Math.max(count(root.left),count(root.right))+1;
     }
     
-	 public class TreeNode {
-	     int val;
-	      TreeNode left;
-	      TreeNode right;
-	      TreeNode(int x) { val = x; }
-	 }
+	 
 }

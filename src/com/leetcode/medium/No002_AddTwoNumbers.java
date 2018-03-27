@@ -1,16 +1,13 @@
 package com.leetcode.medium;
 
-public class No02_AddTwoNumbers {
+import com.leetcode.bean.ListNode;
+
+public class No002_AddTwoNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
-	 public class ListNode {
-	    int val;
-	    ListNode next;
-	    ListNode(int x) { val = x; }
-	 }
 	  
 	 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		 if(l1 == null) {
